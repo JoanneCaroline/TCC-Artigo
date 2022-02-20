@@ -30,8 +30,8 @@ Adaptado por Joanne Caroline, para o desenvolvimento de uma placa coletora de da
 
 // Update these with values suitable for your network.
 
-const char* ssid = "YBIS_FIBRA_JENIFER-2G";
-const char* password = "jenifro0";
+const char* ssid = "xxxxx"; //inserir nome da rede doméstica
+const char* password = "xxxxx"; //inserir senha da rede doméstica
 
 
 // Configurações DHT

@@ -62,7 +62,7 @@ const long interval = 5000;
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
 
-const char* AWS_endpoint = "ak7gj8vyyroaf-ats.iot.us-east-1.amazonaws.com"; //MQTT broker ip
+const char* AWS_endpoint = "xxxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com"; //MQTT broker ip
 
 void callback(char* topic, byte* payload, unsigned int length) {
 Serial.print("Message arrived [");
